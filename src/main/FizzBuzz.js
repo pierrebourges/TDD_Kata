@@ -6,9 +6,7 @@ function fizzBuzz(number){
     return "Buzz";
   }
 
-  if(number % 5 !== 0 ){
-    return number.toString();
-  }
+  return number.toString();
 }
 
 module.exports = fizzBuzz;

@@ -11,3 +11,7 @@ test('fizzBuzz should return "Fizz" if the parameter is divisible by 3', () => {
 test('fizzBuzz should return "Buzz" if the parameter is divisible by 5', () => {
   expect(fizzBuzz(5)).toBe("Buzz");
 });
+
+test('fizzBuzz should return "FizzBuzz" if the parameter is divisible by 3 and 5', () => {
+  expect(fizzBuzz(15)).toBe("FizzBuzz");
+});

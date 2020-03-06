@@ -1,7 +1,7 @@
-function leapYears(year){
+function isleapYears(year){
   if(year % 400 === 0){
     return true;
   }
 }
 
-module.exports = leapYears;
+module.exports = isleapYears;

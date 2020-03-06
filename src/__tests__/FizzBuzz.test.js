@@ -4,4 +4,6 @@ test('fizzBuzz should return the number if the parameter is not divisible by 3 a
   expect(fizzBuzz(1)).toBe("1");
 });
 
-//test('fizzBuzz should return "Fizz')
+test('fizzBuzz should return "Fizz" if the parameter is divisible by 3', () => {
+  expect(fizzBuzz(3)).toBe("Fizz");
+});

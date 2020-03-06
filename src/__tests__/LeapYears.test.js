@@ -15,3 +15,7 @@ test('leapYears return false if the parameter is divisible by 100 but not by 400
 test('leapYears return true if the parameter is divisible by 4 but not by 100', () =>{
   expect(isleapYears(2008)).toBe(true);
 });
+
+test('leapYears return false if the parameter is not divisible by 4', () =>{
+  expect(isleapYears(2)).toBe(false);
+});

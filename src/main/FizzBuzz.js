@@ -1,15 +1,17 @@
 function fizzBuzz(number){
-  if(number % 3 === 0 && number % 5 === 0 ){
-    return "FizzBuzz";
-  }
+  let value ="";
+
   if(number % 3 === 0){
-    return "Fizz";
+    value += "Fizz";
   }
   if(number % 5 === 0){
-    return "Buzz";
+    value += "Buzz";
+  }
+  if(!value){
+    value = number.toString();
   }
 
-  return number.toString();
+  return value;
 }
 
 module.exports = fizzBuzz;
